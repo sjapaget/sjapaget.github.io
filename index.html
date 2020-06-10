@@ -3,6 +3,68 @@
 	<head>
 		<title>My CV</title>
 		<meta charset="utf-8">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+		body {
+			position:relative;
+			width:100%;
+			font-family: "Inria Sans", sans-serif;
+			background-color:rgb(230,230,230);
+		}
+		#wrapper{
+			width:100%
+			overflow: hidden;
+		}
+		#sidepanel{
+			z-index: 1;
+			color:rgb(255,255,255);
+			background-color:rgb(20, 30, 50);
+			padding:15px;
+			width:20%;
+			float:left;
+			}
+		#experience{
+			z-index: 2;
+			position:relative;
+			width:70%;
+			padding:15px;
+			overflow:hidden;			
+			}	
+		h3{
+			color:rgb(0,0,0)
+		}
+		h4{
+			color:rgb(57, 68,90);	
+		}
+		#experience h5{
+			font-style: italic;
+			color: rgb(10,10,10);
+			}
+		#experience h4{
+		}
+		#experience li {
+			line-height:1.5em;
+		}
+		#header{
+			font-weight: 900;
+			font-size: 2.5em;
+		}
+		#profilephoto{
+			float:right;
+			width: 200px;
+			border-style: solid;
+			border-color: rgb(20, 30, 50);
+			border-width:6px;
+		}
+		#experience ul {
+			border-bottom-style: solid;
+			border-color: rgb(20, 30, 50);	
+		}
+		#experienceheader {
+			color: rgb(20, 30, 50)
+			font-size: 4em;
+		}
+		</style>
 	</head>
 	<body>
 	<div id="wrapper">
@@ -50,10 +112,8 @@
 					<li>Escalade</li>
 					<li>Bandes dessinées (Franco-Belges)</li>
 		</div>
-		
 		<div id="experience">
 		<img  id="profilephoto" src=" profile.jpg" width="500" alt="photo of me">
-		
 		<h3 id="experienceheader">Expériences professionnelles</h3>
 			<h4>ENSEIGNANT D'ANGLAIS, LANGUAGE CONNEXION</h4>
 				<h5>Septembre 2019 - Janvier 2020: Paris</h5>
@@ -61,7 +121,6 @@
 					<li>Préparation et enseignement des cours d'anglais aux collégiens et lycéens;</li>
 					<li>Réactivité et sens de l'initiative pour s'adapter aux changements et imprévus pendant les cours.</li>
 				</ul>
-				
 				<h4>ASSISTANT ADMINISTRATEUR, BRITISH STUDY CENTRES</h4>
 				<h5>Mars- Septembre 2019: Swindon, Royaume-Uni</h5>
 				<ul>
@@ -69,7 +128,6 @@
 					<li>Gestion des comptes clients et facturation (maîtrise du logiciel Schoolworks);</li>
 					<li>Chargé du suivi avec les prestataires de transport.</li>
 				</ul>
-				
 				<h4>RESPONSABLE EXCURSIONS ET ACTIVITÉS, DUSEMOND STUDY PROGRAMMES</h4>
 				<h5>Juin - Août 2018: Londres / Rugby, Royaume-Uni</h5>
 				<ul>
@@ -79,7 +137,6 @@
 					<li>Gestion des situations d'urgence;</li>
 					<li>Management de l'équipe de 15 animateurs.</li>
 				</ul>
-				
 				<h4>ANIMATEUR PUIS CHARGÉ DES EXCURSIONS ET ACTIVITÉS, OXFORD INTERNATIONAL EDUCATION GROUP</h4>
 				<h5>Vacances de Pâques et d'été de 2013 à 2018: Royaume-Uni</h5>
 				<ul>
